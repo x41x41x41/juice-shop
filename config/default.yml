@@ -1,16 +1,16 @@
 server:
   port: 3000
 application:
+  logo: JuiceShopCTF_Logo.png
+  favicon: favicon_ctf.ico
+  showChallengeHints: false
+  showVersionNumber: false
+  gitHubRibbon: false
   domain: juice-sh.op
-  name: 'OWASP Juice Shop'
-  logo: JuiceShop_Logo.png
-  favicon: favicon_js.ico
-  numberOfRandomFakeUsers: 0
+  name: 'OWASP Juice Shop CTF'
+  numberOfRandomFakeUsers: 5
   showChallengeSolvedNotifications: true
-  showChallengeHints: true
-  showVersionNumber: true
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
-  gitHubRibbon: true
   twitterUrl: 'https://twitter.com/owasp_juiceshop'
   facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
   slackUrl: 'http://owaspslack.com'
@@ -238,6 +238,4 @@ products:
     price: 19.99
     image: coaster.png
 ctf:
-  showFlagsInNotifications: false
-  showCountryDetailsInNotifications: none # Options: none  name  flag  both
-  countryMapping: ~
+  showFlagsInNotifications: true
